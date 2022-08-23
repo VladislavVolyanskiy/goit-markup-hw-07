@@ -131,9 +131,7 @@ img {
   margin-bottom: 20px;
 }
 
-.hero__btn,
-.send__btn,
-.signup__btn {
+.btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -148,9 +146,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.hero__btn:active,
-.send__btn:active,
-.signup__btn:active {
+.btn:active {
   background-color: #188ce8;
   border-color: #188ce8;
 }
@@ -159,6 +155,12 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.send__btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .trans-color {
